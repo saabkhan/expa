@@ -2,7 +2,7 @@
 <html amp>
   <head>
     <meta charset="utf-8">
-    <title>Orlando Florida Web Design and Software Development Company | XeoDev</title>
+    <title>expatriates.com</title>
     <meta name="description"  content="" />
     <link rel="canonical" href="https://www.xeodev.com/">
     <link rel="shortcut icon" href="images/favicon.png">
