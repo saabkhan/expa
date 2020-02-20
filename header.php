@@ -86,7 +86,8 @@
 
   /*padding: 10px; width: fit-content;*/
   ">
-    <div class="row" style="display: flex; align-items: center; justify-content: center;">
+    <div class="row" style="display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.3);
+    padding: 10px;">
       <div class="col" style="width: 25%; display: inline-block; margin: 0 2.5px; width: 246px;">
         <div class="search-wrapper" style="background: #ffffff; padding: 6px 15px; max-height: 30px;
     height: 30px;">
