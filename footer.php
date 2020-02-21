@@ -36,20 +36,25 @@
 			</div>
 			<div class="col-3" style="width: 25%; margin: auto 0;">
 				<div class="free-ad">
-					<button type="btn btn-default" style="color: #ffffff; background: #3490DB; border: 0; width: 100%; padding: 15px; font-size: 16px;">Place a Free Ad</button>
+					<a href="#" class="btn btn-default" style="width: 100%; padding: 15px; color: #ffffff; font-size: 16px; border-radius: 2px;">Place a Free Ad</button>
+					</a>
 				</div>				
 				<div class="follow" style="margin-top: 45px; display: flex; align-items: center; justify-content: space-between;">
 					<h5 style="display: inline-block; color: #ffffff; text-transform: initial;">Follow us</h5>
 					<ul style="display: flex;">
-						<li style="margin-left: 0; display: inline-block; width: 40px; height: 40px; background: #38393A; display: flex; align-items: center; justify-content: center;">
-							<div class="follow-img-wrapper" style="width: 25px;">
-								<amp-img src="images/facebook.png" alt="logo" layout="responsive" height="25px" width="25px"></amp-img>
-							</div>
+						<li>
+							<a href="#" class="facebook" style="width: 40px; height: 40px; margin-left: 0; display: inline-block;  display: flex; align-items: center; justify-content: center;">
+								<div class="follow-img-wrapper" style="width: 25px; height: 25px;">
+									<!-- <amp-img src="images/facebook.png" alt="logo" layout="responsive" height="25px" width="25px"></amp-img> -->
+								</div>
+							</a>
 						</li>
-						<li style="margin-left: 0; width: 40px; height: 40px; background: #38393A; margin-left: 15px; display: flex; align-items: center; justify-content: center;">
-							<div class="follow-img-wrapper" style="width: 25px;">
-								<amp-img src="images/twitter.png" alt="logo" layout="responsive" height="25px" width="25px"></amp-img>
-							</div>
+						<li>
+							<a href="#" class="twitter" style="margin-left: 0; width: 40px; height: 40px; margin-left: 15px; display: flex; align-items: center; justify-content: center;">
+								<div class="follow-img-wrapper" style="width: 25px; height: 25px;">
+									<!-- <amp-img src="images/twitter.png" alt="logo" layout="responsive" height="25px" width="25px"></amp-img> -->
+								</div>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -66,4 +71,12 @@
 	.support { position: relative; }
 	.support:before { content: " "; border-left: 1px solid #4d4e4f; display: inline-block; position: absolute; height: 140%; left: -60px; top: 70px; }
 	.support:after { content: " "; border-right: 1px solid #4d4e4f; display: inline-block; position: absolute; height: 140%; left: 160px; top: 70px; }
+	.free-ad a { background-color: #3490db; border-color: #3490db; }
+	.free-ad a:hover { background-color: #2583d1; border-color: #2583d1; }
+
+	.follow a.facebook { background: #38393A; background-image: url("images/facebook.png"); font-size: 20px; background-size: 40% 60%; background-repeat: no-repeat; background-position: center; }
+	.follow a.facebook:hover { background-color: #2b8bd3; background-image: url("images/facebook-white.png"); }
+
+	.follow a.twitter { background: #38393A; background-image: url("images/twitter.png"); font-size: 20px; background-size: 60% 60%; background-repeat: no-repeat; background-position: center; }
+	.follow a.twitter:hover { background-color: #2b8bd3; background-image: url("images/twitter-white.png"); }
 </style>

@@ -30,8 +30,8 @@
   <div class="deskBtn">
     </div>
 </amp-sidebar>
-<header id="header">
-    <div class="head_menu" style="display: flex; align-items: center; justify-content: space-between;">
+<header id="header" style="padding: 23px 0;">
+    <div class="head_menu" style="display: flex; align-items: center; justify-content: space-between; width: 96%;">
       <div class="logo_d">
         <div id="logo" class="pull-left" style="width: 30px; height: 30px;">
           <amp-img src="images/logo-icon.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
@@ -78,44 +78,51 @@
   </div>
 </header>
 
-<div class="search-area" id="filter" style="margin-top: 125px; background-image: url(images/heroheaderbg.jpg); height: 142px; background-repeat: no-repeat; background-size: cover; background-position: center; 
+<div class="search-area" id="filter" style="background-image: url(images/heroheaderbg.jpg); height: 186px; background-repeat: no-repeat; background-size: cover; background-position: center; 
 /*display: flex; align-items: center; justify-content: center;*/
 ">
-  <div class="container" style="background-color: rgba(47, 48, 49, 0.9); 
-  border-radius: 3px; height: 100%; width: 100%; display: flex; align-items: center; justify-content: center; border-radius: 0;
+  <div class="container" style="background-color: rgba(47, 48, 49, 0.9); border-radius: 3px; height: 100%; width: 100%; display: flex; align-items: center; justify-content: center; border-radius: 0;
 
   /*padding: 10px; width: fit-content;*/
   ">
-    <div class="row" style="display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.3);
-    padding: 10px;">
-      <div class="col" style="width: 25%; display: inline-block; margin: 0 2.5px; width: 246px;">
-        <div class="search-wrapper" style="background: #ffffff; padding: 6px 15px; max-height: 30px;
-    height: 30px;">
-          <div class="search" style="width: 30px; height: 30px; display: inline-block; vertical-align: middle;">
+    <div class="row" style="display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.3); padding: 10px 5px;">
+      <div class="col" style="width: 25%; display: inline-block; margin: 0 5px; width: 246px;">
+        <div class="search-wrapper" style="background: #ffffff; padding: 6px 15px; max-height: 34px; height: 34px;">
+          <div class="search" style="width: 17.5px; height: 17.5px; display: inline-block; vertical-align: middle;">
             <amp-img src="images/search.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
           </div>
           <p style="color: #555555; margin: 0; display: inline-block; vertical-align: middle; margin-left: 10px; font-size: 16px;">I'm looking for ...</p>
         </div>
       </div>
-      <div class="col" style="width: 25%; display: inline-block; margin: 0 2.5px; width: 246px;">
-        <div class="search-wrapper" style="background: #ffffff; padding: 6px 15px;  max-height: 30px;
-    height: 30px;">
+      <div class="col" style="width: 25%; display: inline-block; margin: 0 5px; width: 246px;">
+        <div class="search-wrapper" style="background: #ffffff; padding: 6px 15px; max-height: 34px; height: 34px; display: flex; align-items: center; justify-content: center;">
           <!-- <div class="search" style="width: 30px; height: 30px; display: inline-block; vertical-align: middle;">
             <amp-img src="images/search.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
           </div> -->
-          <p style="color: #555555; margin: 0; display: inline-block; vertical-align: middle; margin-left: 10px; font-size: 16px;">All Categories</p>
+          <!-- <p style="color: #555555; margin: 0; display: inline-block; vertical-align: middle; margin-left: 10px; font-size: 16px;">All Categories</p> -->
+<!-- <label for="cars"  style="color: #555555; margin: 0; display: inline-block; vertical-align: middle; margin-left: 10px; font-size: 16px;">All Categories</label> -->
+
+<select id="cars" style="width: 100%; border: 0; outline: none; font-size: 16px;">
+  <option value="all" style="width: 100%; padding: 20px 12px 10px; color: red; margin-bottom: 10px;">All Categories</option>
+  <option value="volvo" style="width: 100%; padding: 20px 12px 10px; margin-bottom: 10px;">Volvo</option>
+  <option value="saab" style="width: 100%; padding: 20px 12px 10px; margin-bottom: 10px;">Saab</option>
+  <option value="opel" style="width: 100%; padding: 20px 12px 10px; margin-bottom: 10px;">Opel</option>
+  <option value="audi" style="width: 100%; padding: 20px 12px 10px; margin-bottom: 10px;">Audi</option>
+</select>
+
+
         </div>
       </div>
-      <div class="col" style="width: 25%; display: inline-block; margin: 0 2.5px; width: 246px;">
-        <div class="search-wrapper" style="background: #ffffff; padding: 6px 15px;  max-height: 30px; height: 30px;">
-          <div class="search" style="width: 30px; height: 30px; display: inline-block; vertical-align: middle;">
+      <div class="col" style="width: 25%; display: inline-block; margin: 0 5px; width: 246px;">
+        <div class="search-wrapper" style="background: #ffffff; padding: 6px 15px;  max-height: 34px; height: 34px;">
+          <div class="search" style="width: 17.5px; height: 17.5px; display: inline-block; vertical-align: middle;">
             <amp-img src="images/location.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
           </div>
           <p style="color: #555555; margin: 0; display: inline-block; vertical-align: middle; margin-left: 10px; font-size: 16px;">Location</p>
         </div>
       </div>
-      <div class="col" style="width: 25%; display: inline-block; margin: 0 2.5px; width: 180px;">
-        <div class="search-wrapper" style=" padding: 6px 15px;  max-height: 30px; height: 30px; display: flex; align-items: center; justify-content: center;">
+      <div class="col" style="width: 25%; display: inline-block; margin: 0 5px; width: 180px;">
+        <div class="search-wrapper" style=" padding: 6px 15px;  max-height: 34px; height: 34px; display: flex; align-items: center; justify-content: center;">
           <!-- <div class="search" style="width: 30px; height: 30px; display: inline-block; vertical-align: middle;">
             <amp-img src="images/search.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
           </div> -->
@@ -125,6 +132,3 @@
     </div>
   </div>
 </div>
-
-
-

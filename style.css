@@ -81,10 +81,10 @@ li ul {display: none;}
     color: #fff;
 }
 a.active.outer_a {color: #32c6e6;}
-ul.menu1 {padding-right: 25px;padding-top: 10px;}
+/*ul.menu1 {padding-right: 25px;padding-top: 10px;}*/
 header#header {
     background: #0d4f8b;
-    position: fixed;
+    position: unset;
     left: 0;
     top: 0;
     right: 0;
@@ -103,9 +103,7 @@ header#header {
 }
 .deskBtn .desk_ul {float: right;}
 .sb{font-weight: 500;font-size: 12px;}
-div#logo {
-    margin-left: 30px;
-}
+/*div#logo { margin-left: 30px; }*/
 /*menu close*/
 
 /*main-body header-blog style */
