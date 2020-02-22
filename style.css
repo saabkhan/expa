@@ -103,6 +103,10 @@ header#header {
 }
 .deskBtn .desk_ul {float: right;}
 .sb{font-weight: 500;font-size: 12px;}
+
+/*for header file*/
+.search-wrapper { background-color: #3490db; border-color: #3490db; }
+.search-wrapper:hover { color: #fff; background-color: #2583d1; border-color: #2583d1; }
 /*div#logo { margin-left: 30px; }*/
 /*menu close*/
 
@@ -134,6 +138,22 @@ header#header {
 .foot-size2 h3 a:hover {color: #0d4f8b;}
 .info {display: flex;justify-content: center;padding-left: 5%;font-size: 15px;padding-top: 20px; padding-bottom: 15px;}
 .info a{color: #9a9a9a;}
+
+/*for footer file*/
+.platform li a, .support li a, .contactus li a { color: rgba(255,255,255,.6); width: fit-content; }
+.platform li a:hover, .support li a:hover, .contactus li a:hover { color: #ffd1a2; }
+
+.support { position: relative; }
+.support:before { content: " "; border-left: 1px solid #4d4e4f; display: inline-block; position: absolute; height: 140%; left: -60px; top: 70px; }
+.support:after { content: " "; border-right: 1px solid #4d4e4f; display: inline-block; position: absolute; height: 140%; left: 160px; top: 70px; }
+.free-ad a { background-color: #3490db; border-color: #3490db; }
+.free-ad a:hover { background-color: #2583d1; border-color: #2583d1; }
+
+.follow a.facebook { background: #38393A; background-image: url("images/facebook.png"); font-size: 20px; background-size: 40% 60%; background-repeat: no-repeat; background-position: center; }
+.follow a.facebook:hover { background-color: #2b8bd3; background-image: url("images/facebook-white.png"); }
+
+.follow a.twitter { background: #38393A; background-image: url("images/twitter.png"); font-size: 20px; background-size: 60% 60%; background-repeat: no-repeat; background-position: center; }
+.follow a.twitter:hover { background-color: #2b8bd3; background-image: url("images/twitter-white.png"); }
 
 
 

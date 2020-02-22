@@ -1,6 +1,24 @@
 
 <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)" class="scrollToTop relative"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
 
+  <div class="app_download" style="background: #f0f0f0; padding: 35px 0 30px 25px;">
+    <div class="continer-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="google-btn" style="width: 136px; height: 40px; display: inline-block;">
+            <a href="https://play.google.com/store/apps/details?id=com.expatriates.app">
+              <amp-img src="images/google.png" alt="logo" layout="responsive" height="40px" width="136px"></amp-img>
+            </a>
+          </div>
+          <div class="apple-btn" style="width: 118px; height: 40px; display: inline-block;">
+            <a href="https://itunes.apple.com/eg/app/expatriates-com/id1187248827?mt=8">
+              <amp-img src="images/apple.png" alt="logo" layout="responsive" height="40px" width="118px"></amp-img>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <footer id="footer" class="footer" style="background-color: #333333;">
   <div class="container">
@@ -66,33 +84,15 @@
   </div>
 </footer>
 
-<div class="copyright">
+<div class="copyright"  style="background-color: #333333; padding: 25px 0;
+    border-top: 1px solid #4d4e4f;">
+<div class="container">
   <div class="row">
   <div class="col12">
-    <span>
+    <span style="color: #626262;">
       Copyright © 2020 Expatriates.com | All rights reserved.
     </span>
   </div>
 </div>
 </div>
-
-
-<style>
-  .platform li a, .support li a, .contactus li a { color: rgba(255,255,255,.6); width: fit-content; }
-  .platform li a:hover, .support li a:hover, .contactus li a:hover { color: #ffd1a2; }
-
-  .support { position: relative; }
-  .support:before { content: " "; border-left: 1px solid #4d4e4f; display: inline-block; position: absolute; height: 140%; left: -60px; top: 70px; }
-  .support:after { content: " "; border-right: 1px solid #4d4e4f; display: inline-block; position: absolute; height: 140%; left: 160px; top: 70px; }
-  .free-ad a { background-color: #3490db; border-color: #3490db; }
-  .free-ad a:hover { background-color: #2583d1; border-color: #2583d1; }
-
-  .follow a.facebook { background: #38393A; background-image: url("images/facebook.png"); font-size: 20px; background-size: 40% 60%; background-repeat: no-repeat; background-position: center; }
-  .follow a.facebook:hover { background-color: #2b8bd3; background-image: url("images/facebook-white.png"); }
-
-  .follow a.twitter { background: #38393A; background-image: url("images/twitter.png"); font-size: 20px; background-size: 60% 60%; background-repeat: no-repeat; background-position: center; }
-  .follow a.twitter:hover { background-color: #2b8bd3; background-image: url("images/twitter-white.png"); }
-</style>
-
-
-
+</div>
