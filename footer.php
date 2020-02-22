@@ -63,6 +63,16 @@
 	</div>
 </footer>
 
+<div class="copyright">
+  <div class="row">
+  <div class="col12">
+    <span>
+      Copyright © 2020 Expatriates.com | All rights reserved.
+    </span>
+  </div>
+</div>
+</div>
+
 
 <style>
 	.platform li a, .support li a, .contactus li a { color: rgba(255,255,255,.6); width: fit-content; }
