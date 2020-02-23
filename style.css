@@ -1,10 +1,10 @@
 /*Body Styling*/
-body{margin:0;padding:0;font-family: 'Titillium Web', sans-serif;font-size: 1rem;font-weight: 400;line-height: 1.5;text-align: left;background-color: #fff;color: #474747;}
-ul{padding: 0;margin: 0;list-style: none;}
+body {margin:0;padding:0;font-family: Roboto,Helvetica,Arial, sans-serif;font-size: 1rem;font-weight: 400;line-height: 1.5;text-align: left;background-color: #fff;color: #474747;}
+ul {padding: 0;margin: 0;list-style: none;}
 ol, ul {list-style: none;padding: 0;}
-a{display: block;text-decoration: none;transition: all 0.5s ease 0s;cursor: pointer;}
-p{font-size: 14px;}
-button, input{-webkit-appearance: none;}
+a {display: block;text-decoration: none;transition: all 0.5s ease 0s;cursor: pointer;}
+p {font-size: 14px;}
+button, input {-webkit-appearance: none;}
 
 
 /*------Menu Styling-----*/
@@ -12,7 +12,7 @@ button, input{-webkit-appearance: none;}
 .responisve_menu_button {position: absolute;top: 0;bottom: 0;right: 12px;height: 36px;margin: auto;width: 35px;}
 .hamburger.navigation_wrapper {background-color: transparent;border: 2px solid transparent;border-radius: 3px;cursor: pointer;display: block;height: 36px;padding: 0 3px;float: right;}
 .nav_button.hamburger > span {background-color: #555;border-radius: 2px;clear: both;display: block;height: 4px;margin: 3px 0;width: 21px;}
-#sidebar_menu {width: 290px;background: #fff;}
+#sidebar_menu {width: 290px;background: #303132;}
 /*----Menu button end----*/
 .container{width: 1170px;display: block;margin:0 auto;}
 h2{
@@ -25,14 +25,14 @@ h2{
 h1, h3, h4, h5, h6{
     margin-bottom: .5rem;
     font-family: inherit;
-    font-weight: 500;
+    /*font-weight: 500;*/
     line-height: 1.1;
     color: inherit;
 	margin: 0px;
 }
 #header #logo h1 {
     color: #505050;
-    font-family: "Poppins", sans-serif;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -62,7 +62,7 @@ span {
 .desk_ul li{
     margin-left: 7px;
 }
-.desk_ul li:not(:first-child) a:hover, .desk_ul li:not(:last-child) a:hover, .desk_ul li:nth-child(8) a:hover { color: #32c6e6; }
+.desk_ul li:not(:first-child) a:hover, .desk_ul li:not(:last-child) a:hover, .desk_ul li:nth-child(8) a:hover { color: #ffd1a2; }
 
 ul li {
     display: inline-block;
@@ -75,12 +75,12 @@ li ul {display: none;}
 .desk_ul li a {
     text-decoration: none;
     cursor: pointer;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 16px;
     line-height: 16px;
     color: #fff;
 }
-a.active.outer_a {color: #32c6e6;}
+a.active.outer_a {color: #ffd1a2;}
 /*ul.menu1 {padding-right: 25px;padding-top: 10px;}*/
 header#header {
     background: #0d4f8b;
@@ -109,6 +109,51 @@ header#header {
 .search-wrapper:hover { color: #fff; background-color: #2583d1; border-color: #2583d1; }
 /*div#logo { margin-left: 30px; }*/
 /*menu close*/
+
+
+
+/************ CLS Section Starts ************/
+
+.main-wrapper > .container { max-width: 970px; border-left: solid 1px #ddd; border-right: solid 1px #ddd; background: #fff; }
+.posting-main-content { margin: 0 15px; }
+.main-wrapper .page-title { padding: 15px 0; margin: 0 15px 20px; border-bottom: solid 1px #ddd; }
+.main-wrapper .page-title  h1 { font-size: 22px; font-weight: 600px; }
+.page-title ol.breadcrumbs li { display: inline-flex; }
+.page-title ol.breadcrumbs li a { color: #1E0FCC; font-weight: 700; font-size: 16px; }
+.page-title ol.breadcrumbs li a:hover { text-decoration: underline; }
+.page-title ol.breadcrumbs li a:visited { color: #800080; }
+.page-title ol.breadcrumbs li:not(:first-child):before { content: '/'; padding: 0 5px; }
+
+
+.post-info ol.no-bullet li { margin-bottom: 10px; }
+.post-info ol.no-bullet li  strong { color: #333; font-weight: 700; }
+button.btn.posting-phone { color: #fff; line-height: 1; text-decoration: none; border-radius: 4px; background: #069; padding: 12px 15px; margin-top: 10px; font-size: 18px; text-align: left; margin-bottom: 20px; border: 0; }
+button.btn.posting-phone:hover { background: #0273ab; }
+button.btn.posting-phone a { color: #fff; }
+.post-info ol.no-bullet li .icon-phone { display: inline-block; }
+.post-info ol.no-bullet li a { display: inline-block; }
+
+.post-body { margin-bottom: 20px; clear: left; color: #000000; line-height: 1.7; }
+.posting-images .img-wrapper { width: 457px; height: 343px; display: inline-block; }
+.posting-images, .posting-images img { margin-top: 20px; margin-bottom: 10px; text-align: center; }
+.posting-images amp-img:hover { transform: scale(1.75); z-index: 999; transition: all .2s ease-in-out; }
+
+.post-nav { margin: 40px 0; text-align: center; }
+.post-nav a.btn { display: inline-block; padding: 12px 15px; color: #fff; line-height: 1; text-align: center; text-decoration: none; border-radius: 4px; }
+.secondary { background: #3498DB; }
+.secondary:hover { background: #3caaf3; }
+
+.center-column { margin-bottom: 20px; text-align: center; }
+.center-column a { color: #1E0FCC; font-weight: 700; }
+.center-column a:hover { text-decoration: underline; }
+.center-column p { margin: 20px 0 0; font-size: 16px; }
+.center-column span { font-size: 16px; }
+
+.warning { margin-bottom: 20px; text-transform: uppercase; text-align: right; }
+.warning a { color: red; text-decoration: none; font-weight: 700; }
+.warning a:hover { text-decoration: underline; }
+
+/************ CLS Section Ends ************/
 
 
 
@@ -211,7 +256,7 @@ button#scrollToTopButton {
     font-size: 14px;
 }
 .mobile_menu ul {
-    padding: 20px 15px 5px 30px;
+    padding: 32px 15px 5px 30px;
 }
 .mbl-menu-list {
     display: block;
@@ -282,7 +327,7 @@ button#scrollToTopButton {
     padding-left: 0px;
 }
 .responisve_menu_button{
-    display: block;
+    /*display: block;*/
 }
 #hero .hero-container{
     position: static;
@@ -385,8 +430,8 @@ a.right_a.sb {
 	margin-left: 18px;
 }
 .upper_li a{
-	font-size: 16px;
-    font-weight: 600;
+	font-size: 14px;
+    /*font-weight: 600;*/
     color: #403f3f;
 }
 }
@@ -429,9 +474,9 @@ a.right_a.sb {
 	margin-left: 18px;
 }
 .upper_li a{
-	font-size: 16px;
-    font-weight: 600;
-    color: #403f3f;
+	font-size: 14px;
+    /*font-weight: 600;*/
+    color: #ffffff;
 }
 	header#header {
     background: #0d4f8b;

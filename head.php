@@ -3,21 +3,21 @@
 
 <script type="application/ld+json">
 
-/*curl -i -s -k -X POST -H "Content-Type: application/json" -H "X-Goog-Api-Key:AIzaSyBtyGdUtMV8TwyVJ_uQkXxZrsVMxuhMN5I" -d "{urls: ['https://sudsies.com/']}" "https://acceleratedmobilepageurl.googleapis.com/v1/ampUrls:batchGet"
+/*curl -i -s -k -X POST -H "Content-Type: application/json" -H "X-Goog-Api-Key:AIzaSyBtyGdUtMV8TwyVJ_uQkXxZrsVMxuhMN5I" -d "{urls: ['#']}" "https://acceleratedmobilepageurl.googleapis.com/v1/ampUrls:batchGet"
 {
   "ampUrls": [
     {
-      "originalUrl": "https://sudsies.com/",
-      "ampUrl": "https://sudsies.com/amp/",
+      "originalUrl": "#",
+      "ampUrl": "#",
       "cdnAmpUrl":
-         "https://sudsies-com.cdn.ampproject.org/c/s/sudsies.com/amp/"
+         "#"
     }
   ],
   "urlErrors": [
     {
       "errorCode": "NO_AMP_URL",
       "errorMessage": "AMP URL not found.",
-      "originalUrl": "https://sudsies.com/"
+      "originalUrl": "#"
     }
   ]
 }
@@ -26,13 +26,15 @@
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "url": "https://sudsies.com/amp/",
+  "url": "#",
   "contactPoint": [{
   "@type": "ContactPoint",
-  "telephone": "305.864.3279",
-  "contactType": "Customer Service"
+  "telephone": "#",
+  "contactType": "ABC"
   }]
 }*/
+
+
 
 </script>
 
@@ -57,7 +59,6 @@
 <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
