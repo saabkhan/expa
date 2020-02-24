@@ -28,12 +28,24 @@
           <div class="platform" style="text-align: left;">
             <h5>PLATFORM</h5>
             <ul>
-              <li style="margin-left: 0; display: block;"><a href="#">Modify an Ad</a></li>
-              <li style="margin-left: 0; display: block;"><a href="#">Advertising</a></li>
-              <li style="margin-left: 0; display: block;"><a href="#">Terms of Use</a></li>
-              <li style="margin-left: 0; display: block;"><a href="#">Privacy</a></li>
-              <li style="margin-left: 0; display: block;"><a href="#">System Status</a></li>
-              <li style="margin-left: 0; display: block;"><a href="#">Unsubscribe</a></li>
+              <li style="margin-left: 0; display: block;">
+                <a href="https://www.expatriates.com/scripts/posting/getlink.epl">Modify an Ad</a>
+              </li>
+              <li style="margin-left: 0; display: block;">
+                <a href="https://www.expatriates.com/html/advertising.html">Advertising</a>
+              </li>
+              <li style="margin-left: 0; display: block;">
+                <a href="https://www.expatriates.com/html/terms.of.use.html">Terms of Use</a>
+              </li>
+              <li style="margin-left: 0; display: block;">
+                <a href="https://www.expatriates.com/html/privacy.html">Privacy</a>
+              </li>
+              <li style="margin-left: 0; display: block;">
+                <a href="https://www.expatriates.com/html/status.html">System Status</a>
+              </li>
+              <li style="margin-left: 0; display: block;">
+                <a href="https://www.expatriates.com/scripts/posting/unsubscribe.epl">Unsubscribe</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -41,8 +53,12 @@
           <div class="support" style="text-align: left;">
             <h5>SUPPORT</h5>
             <ul>
-              <li style="margin-left: 0; display: block;"><a href="#">Knowledge Base</a></li>
-              <li style="margin-left: 0; display: block;"><a href="#">All articles</a></li>
+              <li style="margin-left: 0; display: block;">
+                <a href="http://contactus.expatriates.com/knowledgebase">Knowledge Base</a>
+              </li>
+              <li style="margin-left: 0; display: block;">
+                <a href="http://contactus.expatriates.com/knowledgebase/articles/all">All articles</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -50,28 +66,30 @@
           <div class="contactus" style="text-align: left;">
             <h5>CONTACT US</h5>
             <ul>
-              <li style="margin-left: 0; display: block;"><a href="#">Contact Us</a></li>
+              <li style="margin-left: 0; display: block;">
+                <a href="http://contactus.expatriates.com/forums/226252-contact-us">Contact Us</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-3d">
         <div class="free-ad">
-          <a href="#" class="btn btn-default" style="width: 100%; padding: 15px; color: #ffffff; font-size: 16px; border-radius: 2px;">Place a Free Ad</button>
+          <a href="https://www.expatriates.com/scripts/posting/poststep1.epl" class="btn btn-default" style="width: 100%; padding: 15px; color: #ffffff; font-size: 16px; border-radius: 2px;">Place a Free Ad</button>
           </a>
         </div>        
         <div class="follow">
           <h5 style="display: inline-block; color: #ffffff; text-transform: initial;">Follow us</h5>
           <ul style="display: flex;">
             <li>
-              <a href="#" class="facebook" style="width: 40px; height: 40px; margin-left: 0; display: inline-block;  display: flex; align-items: center; justify-content: center;">
+              <a href="https://web.facebook.com/expatriatescom/?_rdc=1&_rdr" class="facebook" style="width: 40px; height: 40px; margin-left: 0; display: inline-block;  display: flex; align-items: center; justify-content: center;">
                 <div class="follow-img-wrapper" style="width: 25px; height: 25px;">
                   <!-- <amp-img src="images/facebook.png" alt="logo" layout="responsive" height="25px" width="25px"></amp-img> -->
                 </div>
               </a>
             </li>
             <li>
-              <a href="#" class="twitter" style="margin-left: 0; width: 40px; height: 40px; margin-left: 15px; display: flex; align-items: center; justify-content: center;">
+              <a href="https://twitter.com/expatriatescom_" class="twitter" style="margin-left: 0; width: 40px; height: 40px; margin-left: 15px; display: flex; align-items: center; justify-content: center;">
                 <div class="follow-img-wrapper" style="width: 25px; height: 25px;">
                   <!-- <amp-img src="images/twitter.png" alt="logo" layout="responsive" height="25px" width="25px"></amp-img> -->
                 </div>

@@ -113,7 +113,6 @@ header#header {
 
 
 /************ CLS Section Starts ************/
-
 .main-wrapper > .container { max-width: 970px; border-left: solid 1px #ddd; border-right: solid 1px #ddd; background: #fff; }
 .posting-main-content { margin: 0 15px; }
 .main-wrapper .page-title { padding: 15px 0; margin: 0 15px 20px; border-bottom: solid 1px #ddd; }
@@ -135,7 +134,7 @@ button.btn.posting-phone a { color: #fff; }
 
 .post-body { margin-bottom: 20px; clear: left; color: #000000; line-height: 1.7; }
 .posting-images .img-wrapper { width: 457px; height: 343px; display: inline-block; }
-.posting-images, .posting-images img { margin-top: 20px; margin-bottom: 10px; text-align: center; }
+.posting-images, .posting-images amp-img { margin-top: 20px; margin-bottom: 10px; text-align: center; }
 .posting-images amp-img:hover { transform: scale(1.75); z-index: 999; transition: all .2s ease-in-out; }
 
 .post-nav { margin: 40px 0; text-align: center; }
@@ -153,9 +152,41 @@ button.btn.posting-phone a { color: #fff; }
 .warning a { color: red; text-decoration: none; font-weight: 700; }
 .warning a:hover { text-decoration: underline; }
 
+footer.cls-footer { padding: 10px 15px; border-top: solid 1px #069; }
+footer.cls-footer nav.footer-nav { float: right; }
+footer.cls-footer ul li:not(:first-child):before { content: '|'; padding: 0 5px; }
+footer.cls-footer ul li { display: inline-flex; margin: 0; }
+footer.cls-footer ul li a { color: #000000; font-size: 13px; font-weight: 500; }
+footer.cls-footer ul li a:hover { color: #ffd1a2; transition: all .0s ease-in-out; }
 /************ CLS Section Ends ************/
 
+/************ Vehicles Cars Trucks Section Starts ************/
+.price#price-filter { padding: 10px 15px; margin:0 0 20px; border: solid 1px #ddd; background: #eee; border-radius: 4px; }
+.price#price-filter .col { width: 50%; }
+.price#price-filter .col:not(:first-child) { display: inline; }
+.price#price-filter .col:last-child { float: right; }
+.price#price-filter .col input[type=checkbox], 
+.price#price-filter .col input[type=radio] { box-sizing: border-box; padding: 0; }
+.price#price-filter .col:last-child input[type="text"] { width: 39%; }
+input[type="submit"] { width: 14%; }
+.price#price-filter input[type="text"], 
+.price#price-filter input[type="password"], 
+.price#price-filter input[type="submit"] { height: 24px; padding: 5px 5px; border: solid 1px #ddd; font-size: inherit; border-radius: 4px; outline: none; }
+.price#price-filter input[type="submit"] { height: 36px; border: solid 1px #3498DB; color: #fff; background: #3498DB; }
+.price#price-filter input[type="submit"]:hover { border: solid 1px #3caaf3; background: #3caaf3; }
 
+.listing-main-content { margin: 0 15px; }
+.listing-date { padding: 5px 10px; margin-bottom: 10px; color: #fff; background: #069; font-weight: 700; border-radius: 4px; }
+
+.listing-content li { text-transform: capitalize; padding: 0px 5px; border-bottom: 1px solid #e2e2e2; }
+.listing-content li.has-picture { min-height: 105px; display: flex;align-items: center;justify-content: space-between; }
+.listing-content li .image-wrapper { 
+    /*float: right;*/
+    padding-left: 5px; }
+.listing-content li.has-picture a { color: #1E0FCC; font-weight: 700; line-height: 30px; }
+.listing-content li.has-picture a:hover { text-decoration: underline; }
+
+/************ Vehicles Cars Trucks Section Ends ************/
 
 
 
@@ -740,6 +771,28 @@ a.right_a.sb {
     align-items: center;
     justify-content: center;    padding-bottom: 5%;
 }
+
+/*********** CLS Starts***********/
+footer.cls-footer small.copy { display: block; text-align: center; }
+footer.cls-footer nav.footer-nav { text-align: center; float: unset; }
+/*********** CLS Ends***********/
+
+/************ Vehicles Cars Trucks Section Starts ************/
+.price#price-filter { text-align: center; }
+.price#price-filter .col { width: 62%; margin: 5px auto; }
+.price#price-filter .col:last-child { float: unset; margin: 0 auto; display: block; }
+.price#price-filter input[type="text"], 
+.price#price-filter input[type="password"], 
+.price#price-filter input[type="submit"] { 
+    width: 40%;
+    text-align: center;
+    margin: 5px auto;
+    display: block; }
+
+.price#price-filter .col:last-child input[type="text"] { width: 86%; }
+.price#price-filter .col:nth-child(2) input[type="text"] { width: 53%; }
+/************ Vehicles Cars Trucks Section Ends ************/
+
 }
 
 
