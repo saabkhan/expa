@@ -113,6 +113,7 @@ header#header {
 
 
 /************ CLS Section Starts ************/
+.main-wrapper { background: #f8f8f8; }
 .main-wrapper > .container { max-width: 970px; border-left: solid 1px #ddd; border-right: solid 1px #ddd; background: #fff; }
 .posting-main-content { margin: 0 15px; }
 .main-wrapper .page-title { padding: 15px 0; margin: 0 15px 20px; border-bottom: solid 1px #ddd; }
@@ -505,7 +506,7 @@ a.right_a.sb {
 	margin-left: 18px;
 }
 .upper_li a{
-	font-size: 14px;
+	font-size: 16px;
     /*font-weight: 600;*/
     color: #ffffff;
 }
@@ -791,6 +792,9 @@ footer.cls-footer nav.footer-nav { text-align: center; float: unset; }
 
 .price#price-filter .col:last-child input[type="text"] { width: 86%; }
 .price#price-filter .col:nth-child(2) input[type="text"] { width: 53%; }
+
+.listing-content li.has-picture a, .listing-date { font-size: 14px; }
+footer.cls-footer small.copy, footer.cls-footer ul li a { font-size: 11px; }
 /************ Vehicles Cars Trucks Section Ends ************/
 
 }

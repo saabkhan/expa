@@ -14,17 +14,29 @@
       </div></a>
     </li>
     <li class="upper_li">
-      <a href="#" class="upper">
-        <div class="image-wrapper" style="width: 17px; height: 22px;">
-          <amp-img src="images/home.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
+      <a href="https://www.expatriates.com" class="upper">
+        <div class="image-wrapper" style="width: 22px; height: 22px;">
+          <amp-img src="images/hom.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
         </div>
         Home
       </a>
     </li>
-    <li class="upper_li"><a href="https://www.xeodev.com/aboutus" class="upper">Subscribe</a></li>
-    <li class="upper_li"><a href="https://www.xeodev.com/services" class="upper">Contact Us</a></li>
-    <li class="upper_li"><a href="https://www.xeodev.com/projects" class="upper">My Ads</a></li>
-    <li class="upper_li"><a href="https://www.xeodev.com/careers" class="upper"><button class="header-btn" style="color: #ffd1a2; border: 1px solid #ffd1a2; background: transparent; min-width: 140px; font-size: 14px; padding: 0 26.5px; line-height: 36px;">Place an Ad<button></a></li>
+    <li class="upper_li"><a href="https://www.expatriates.com/scripts/posting/subscribe.epl" class="upper">
+      <div class="image-wrapper" style="width: 22px; height: 22px;">
+        <amp-img src="images/mail.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
+      </div>
+        Subscribe</a></li>
+    <li class="upper_li"><a href="http://contactus.expatriates.com/forums/226252-contact-us" class="upper">
+      <div class="image-wrapper" style="width: 22px; height: 22px;">
+        <amp-img src="images/mail.png" alt="logo" layout="responsive" height="30px" width="30px"></amp-img>
+      </div>
+        Contact Us</a></li>
+    <li class="upper_li"><a href="https://www.expatriates.com/scripts/users/signin.epl" class="upper">
+      My Ads</a></li>
+    <li class="upper_li"><a href="https://www.expatriates.com/cgi-local/placead/index.pl?region_id=1023-Riyadh" class=  "upper">
+      <button class="header-btn" style="color: #ffd1a2; border: 1px solid #ffd1a2; background: transparent; min-width: 140px; font-size: 14px; padding: 0 26.5px; line-height: 36px;">
+          Place an Ad
+      <button></a></li>
   </ul>
 </div>
   <div class="mbl-menu-list no_pad">
@@ -146,7 +158,7 @@
 /*}*/
 
   @media only screen and (max-width: 767px) {
-    .upper .image-wrapper { display: inline-block; vertical-align: middle; }
+    .upper .image-wrapper { display: inline-block; vertical-align: middle; position: absolute; top: 50%; transform: translate(0%, -50%); }
   .head_menu { justify-content: center; padding: 10px 0; }
   .nav.desk_ul ul.menu1 li button.header-btn { background-color: transparent; color: #ffd1a2; }
   .nav.desk_ul ul.menu1 li button.header-btn:hover { background: #ffd1a2; color: #05699b; }
